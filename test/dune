@@ -1,0 +1,7 @@
+(library
+ (name ocamlbook_tests)
+ (libraries core ocamlbook)
+ (inline_tests)
+ (preprocess 
+   (pps ppx_jane)))
+ 

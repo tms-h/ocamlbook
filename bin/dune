@@ -1,0 +1,6 @@
+(executable
+ (public_name ocamlbook)
+ (name main)
+ (libraries core ocamlbook)
+ (preprocess
+   (pps ppx_jane)))
