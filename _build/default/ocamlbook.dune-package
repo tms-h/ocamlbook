@@ -1,4 +1,4 @@
 (lang dune 3.24)
 (name ocamlbook)
-(sections (lib .) (bin ../../bin))
-(files (lib (META dune-package opam)) (bin (ocamlbook)))
+(sections (lib .) (bin ../../bin) (doc ../../doc/ocamlbook))
+(files (lib (META dune-package opam)) (bin (ocamlbook)) (doc (README.md)))
